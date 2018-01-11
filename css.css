@@ -1,0 +1,96 @@
+* {
+  background-color: #000639;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {}
+
+p {
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.topmsg {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.underline {
+  color: #7AB55C;
+    margin: 0 0 50px 0;
+}
+
+.container_topmsg_underline_sub {
+  width: 500px;
+  padding: 1.0625em 1em;
+  margin: 1% auto auto auto;
+}
+
+.container_email_dropdown {
+  width: 500px;
+  display: inline-flex;
+  position: relative;
+  margin: 0 0 5px 0;
+}
+
+#emailAddress {
+  height: 22px;
+  width: 65%;
+  margin: 0 20px 0 0;
+  padding: 1.0625em 1em;
+  color: #7B7B7B;
+  font-size: 16px;
+  box-shadow: 0 0 0 1px #7B7B7B;
+  border: 0;
+  border-radius: 7px;
+  background-color: #ffffff;
+}
+
+#dropdown {
+  margin: 0 5px 0 0;
+  height: 56px;
+  width: 35%;
+  padding: 1.0625em 1em;
+  color: #7B7B7B;
+  font-size: 16px;
+  box-shadow: 0 0 0 1px #7B7B7B;
+  border: 0;
+  border-radius: 7px;
+  background-color: #ffffff;
+}
+
+.signUpBtn {
+  display: block;
+  height: 56px;
+  width: 500px;
+  margin: 15px 0 0 0;
+  padding: 1.0625em 1em;
+  color: #FFFFFF;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #5c6ac4;
+}
+
+#unsubsribe {
+  position: fixed;
+
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+#invalid_Email {
+  display: flex;
+  color: #000639;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 500px;
+  font-family: Helvetica;
+}
+
+select {
+  background-color: #FFFFFF;
+}

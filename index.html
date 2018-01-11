@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Shopify's challenge</title>
+
+    <link href="css.css" rel="stylesheet">
+    <script src="js.js"></script>
+  </head>
+
+  <body>
+
+    <div class="body">
+      <div class="container_top">
+        <div class="container_topmsg_underline_sub">
+
+
+
+          <p class="topmsg"> Stay up to date with the ecommerce trends with Shopify's newsletter</p>
+
+
+          <p class="underline">___</p>
+
+
+          <p>Subscribe for free marketing tips</p>
+
+        </div>
+      </div>
+
+      <form class="container_middle" method="POST" name="form">
+
+        <center>
+          <div class="container_email_dropdown">
+
+
+
+            <input type="email" id="emailAddress" name="emailAddress" placeholder="Email Address" required>
+
+            <select name="interest" id="dropdown">
+              <option id="dropdown" value="Interested in...">Interested in...</option>
+              <option id="dropdown" value="1">1</option>
+              <option id="dropdown" value="2">2</option>
+              <option id="dropdown" value="3">3</option>
+              <option id="dropdown" value="4">4</option>
+            </select>
+
+          </div>
+
+          <p id="invalid_Email">Please enter a valid email address</p>
+
+        </center>
+        <div class="signUpNow">
+          <center>
+            <input class="signUpBtn" type="button" onClick="verifyEmail();" value="Sign up now">
+          </center>
+
+        </div>
+      </form>
+
+
+
+
+      <p id="unsubsribe">Unsubcribe</p>
+
+    </div>
+
+  </body>
+
+</html>
